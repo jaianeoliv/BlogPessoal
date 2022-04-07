@@ -128,7 +128,7 @@ public class UsuarioControllerTest {
 		
 		Optional<Usuario> usuario = usuarioService.cadastrarUsuario(new Usuario(0L, 
 				"Kai Mori", "knightkai@email.com.br", 
-				"devilsnight", "https://i.imgur.com/yDRVeK7.jpg"));	
+				"devilsnight", "https://i.imgur.com/XXQJHNY.jpg"));	
 		
 		ResponseEntity<Usuario> resposta = testRestTemplate
 			.withBasicAuth("root", "root")
@@ -143,7 +143,7 @@ public class UsuarioControllerTest {
 	@DisplayName("Usuário consegue fazer o login")
 	public void usuarioConsegueFazerLogin () {
 		
-		usuarioService.cadastrarUsuario(new Usuario(0L, "Grizz", "grizzyboy@email.com.br", "13465278", "https://i.imgur.com/JR7kUFU.jpg"));
+		usuarioService.cadastrarUsuario(new Usuario(0L, "Grizz", "grizzyboy@email.com.br", "13465278", "https://i.imgur.com/y91vwEE.jpg"));
 
 		HttpEntity<UsuarioLogin> requisicao = new HttpEntity<UsuarioLogin>(new UsuarioLogin("grizzyboy@email.com.br", "13465278"));
 
