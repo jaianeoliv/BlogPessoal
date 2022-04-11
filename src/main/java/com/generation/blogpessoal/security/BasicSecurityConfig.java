@@ -47,29 +47,4 @@ public class BasicSecurityConfig extends WebSecurityConfigurerAdapter{
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
